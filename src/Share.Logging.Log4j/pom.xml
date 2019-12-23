@@ -11,5 +11,20 @@
 
     <artifactId>Share.Logging.Log4j</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j</artifactId>
+            <version>1.3.8.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>Share</groupId>
+            <artifactId>Share.Base</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>

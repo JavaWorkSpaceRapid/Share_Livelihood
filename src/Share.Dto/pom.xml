@@ -11,5 +11,16 @@
 
     <artifactId>Share.Dto</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>Share</groupId>
+            <artifactId>Share.Base</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>1.5.4</version>
+        </dependency>
+    </dependencies>
 </project>

@@ -11,5 +11,16 @@
 
     <artifactId>Share.SpringBoot</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>Share</groupId>
+            <artifactId>Share.Base</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>Share</groupId>
+            <artifactId>Share.Logging.Log4j</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>

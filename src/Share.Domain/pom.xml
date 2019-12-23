@@ -11,5 +11,11 @@
 
     <artifactId>Share.Domain</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>Share</groupId>
+            <artifactId>Share.Base</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>
