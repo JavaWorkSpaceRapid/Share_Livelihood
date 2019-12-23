@@ -18,5 +18,10 @@
             <artifactId>Lycan.Dto</artifactId>
             <version>${lycan.base.version}</version>
         </dependency>
+        <dependency>
+            <groupId>Share.Livelihood</groupId>
+            <artifactId>Share.Livelihood.Exception</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>

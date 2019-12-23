@@ -14,9 +14,14 @@
 
     <dependencies>
         <dependency>
-            <groupId>Lycan</groupId>
-            <artifactId>Lycan.Dto</artifactId>
-            <version>${lycan.base.version}</version>
+            <groupId>Share</groupId>
+            <artifactId>Share.Dto</artifactId>
+            <version>${share.base.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>Share.Livelihood</groupId>
+            <artifactId>Share.Livelihood.Exception</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>

@@ -18,5 +18,10 @@
             <artifactId>Share.Livelihood.Bussiness.Domain</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>Share</groupId>
+            <artifactId>Share.Mybatis</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>

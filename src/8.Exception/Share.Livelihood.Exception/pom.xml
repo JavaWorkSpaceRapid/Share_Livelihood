@@ -12,5 +12,47 @@
 
     <artifactId>Share.Livelihood.Exception</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>fr.xebia.extras</groupId>
+            <artifactId>selma-processor</artifactId>
+            <version>0.15</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>fr.xebia.extras</groupId>
+            <artifactId>selma</artifactId>
+            <version>0.15</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jdom</groupId>
+            <artifactId>jdom</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>4.4.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.10</version>
+        </dependency>
+        <dependency>
+            <groupId>Share</groupId>
+            <artifactId>Share.File</artifactId>
+            <version>${share.base.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.wxpay</groupId>
+            <artifactId>wxpay-sdk</artifactId>
+            <version>0.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20180813</version>
+        </dependency>
+    </dependencies>
 </project>

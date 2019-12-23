@@ -19,14 +19,14 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>Lycan</groupId>
-            <artifactId>Lycan.SpringBoot</artifactId>
-            <version>${lycan.base.version}</version>
+            <groupId>Share</groupId>
+            <artifactId>Share.SpringBoot</artifactId>
+            <version>${share.base.version}</version>
         </dependency>
         <dependency>
-            <groupId>Lycan</groupId>
-            <artifactId>Lycan.Web</artifactId>
-            <version>${lycan.base.version}</version>
+            <groupId>Share</groupId>
+            <artifactId>Share.Web</artifactId>
+            <version>${share.base.version}</version>
         </dependency>
     </dependencies>
 </project>

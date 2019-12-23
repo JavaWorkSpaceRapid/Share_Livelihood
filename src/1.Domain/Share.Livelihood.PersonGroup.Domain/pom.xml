@@ -18,5 +18,10 @@
             <artifactId>Share.Livelihood.PersonGroup.Utils</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>Share</groupId>
+            <artifactId>Share.Domain</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>
