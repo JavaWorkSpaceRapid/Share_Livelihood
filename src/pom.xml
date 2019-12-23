@@ -10,8 +10,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Share.Livelihood</groupId>
-    <artifactId>Share.Livelihood.Root</artifactId>
+    <groupId>Share</groupId>
+    <artifactId>Share.Root</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
@@ -23,22 +23,14 @@
     </properties>
 
     <modules>
-        <module>1.Domain/Share.Livelihood.Bussiness.Domain</module>
-        <module>1.Domain/Share.Livelihood.PersonGroup.Domain</module>
-        <module>2.Infrastructure/Share.Livelihood.Bussiness.Infrastructure</module>
-        <module>2.Infrastructure/Share.Livelihood.PersonGroup.Infrastructure</module>
-        <module>3.App/Share.Livelihood.Bussiness.App</module>
-        <module>3.App/Share.Livelihood.Bussiness.Api</module>
-        <module>3.App/Share.Livelihood.PersonGroup.Api</module>
-        <module>3.App/Share.Livelihood.PersonGroup.App</module>
-        <module>4.Service/Share.Livelihood.Boot</module>
-        <module>5.Controller/Share.Livelihood.Bussiness.Controller</module>
-        <module>5.Controller/Share.Livelihood.PersonGroup.Controller</module>
-        <module>6.Dto/Share.Livelihood.PersonGroup.Dto</module>
-        <module>6.Dto/Share.Livelihood.Bussiness.Dto</module>
-        <module>7.Utils/Share.Livelihood.Bussiness.Utils</module>
-        <module>7.Utils/Share.Livelihood.PersonGroup.Utils</module>
-        <module>8.Exception/Share.Livelihood.Exception</module>
+        <module>Share.Base</module>
+        <module>Share.Domain</module>
+        <module>Share.Dto</module>
+        <module>Share.File</module>
+        <module>Share.Logging.Log4j</module>
+        <module>Share.Mybatis</module>
+        <module>Share.SpringBoot</module>
+        <module>Share.Web</module>
     </modules>
 
     <repositories>
