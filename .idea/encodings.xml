@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/1.Domain/Share.Livelihood.Bussiness.Domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/1.Domain/Share.Livelihood.PersonGroup.Domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/2.Infrastructure/Share.Livelihood.Bussiness.Infrastructure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/2.Infrastructure/Share.Livelihood.PersonGroup.Infrastructure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/3.App/Share.Livelihood.Bussiness.Api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/3.App/Share.Livelihood.Bussiness.App" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/3.App/Share.Livelihood.PersonGroup.Api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/3.App/Share.Livelihood.PersonGroup.App" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/4.Service/Share.Livelihood.Boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/5.Controller/Share.Livelihood.Bussiness.Controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/5.Controller/Share.Livelihood.PersonGroup.Controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/6.Dto/Share.Livelihood.Bussiness.Dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/6.Dto/Share.Livelihood.PersonGroup.Dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/7.Utils/Share.Livelihood.Bussiness.Utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/7.Utils/Share.Livelihood.PersonGroup.Utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/8.Exception/Share.Livelihood.Exception" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: Lycan:Lycan.Web:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/apache-maven-3.3.9/conf/repository/Lycan/Lycan.Web/1.0-SNAPSHOT/Lycan.Web-1.0-20191219.115910-28.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/apache-maven-3.3.9/conf/repository/Lycan/Lycan.Web/1.0-SNAPSHOT/Lycan.Web-1.0-20191219.115910-28-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/apache-maven-3.3.9/conf/repository/Lycan/Lycan.Web/1.0-SNAPSHOT/Lycan.Web-1.0-20191219.115910-28-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
