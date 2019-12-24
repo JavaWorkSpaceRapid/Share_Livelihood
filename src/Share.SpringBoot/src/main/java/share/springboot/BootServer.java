@@ -17,7 +17,7 @@ import share.logging.log4j.Log4j;
  * Created by SunDawei on 2019/6/19.
  * 后期做拓展封装
  */
-@ComponentScan({"livelihood", "lycan"})
+@ComponentScan({"share.livelihood","share"})
 @Configuration
 @SpringBootApplication
 public class BootServer {

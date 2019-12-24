@@ -29,7 +29,7 @@ import java.util.stream.Collectors;
 public class ControllerAspectJ {
     private Logger log = LoggerFactory.getLogger(ControllerAspectJ.class);
 
-    @Pointcut("within(@io.swagger.annotations.Api *) || this(lycan.web.ApiController)")
+    @Pointcut("within(@io.swagger.annotations.Api *) || this(share.web.ApiController)")
     public void cutController() {
     }
 

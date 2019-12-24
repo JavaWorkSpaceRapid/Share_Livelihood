@@ -41,11 +41,11 @@ public class TokenAspectJ {
     }
 
 //    @Pointcut("execution (@io.swagger.annotations.ApiOperation !@lycan.base.annotation.NoAuth  * *(..))")
-    @Pointcut("(execution(@io.swagger.annotations.ApiOperation * *(..)) || this(lycan.web.ApiController)) && !execution (@lycan.base.annotation.NoAuth  * *(..))")
+    @Pointcut("(execution(@io.swagger.annotations.ApiOperation * *(..)) || this(share.web.ApiController)) && !execution (@share.base.annotation.NoAuth  * *(..))")
     public void cutController4Token() {
     }
 
-    @Pointcut("execution (@lycan.base.annotation.InitAuth  * *(..))")
+    @Pointcut("execution (@share.base.annotation.InitAuth  * *(..))")
     public void cutControllerInitAuth() {
     }
 

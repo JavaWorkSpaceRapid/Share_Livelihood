@@ -1,11 +1,12 @@
 package share.base;
 
-import lycan.base.exceptions.BaseException;
+
+import share.base.exceptions.BaseException;
 
 import java.io.*;
 import java.util.Properties;
 
-import static lycan.base.extensions.ObjectExtension.isNotNull;
+import static share.base.extensions.ObjectExtension.isNotNull;
 
 public class SystemHelper {
     public static final boolean DEBUG_MODE = java.lang.management.ManagementFactory.getRuntimeMXBean().
